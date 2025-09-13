@@ -1,0 +1,126 @@
+{{ $phase := .Get 0 }}
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Post APIs</th>
+<th style="text-align:center">User Settings APIs</th>
+<th style="text-align:center">Authentication</th>
+<th style="text-align:center">Threat Protection</th>
+<th style="text-align:center">Logging</th>
+</tr>
+</thead>
+<tbody>
+    {{- if eq $phase 1 -}}
+        <tr>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        </tr>
+        <tr>
+        <td style="text-align:center">List</td>
+        <td style="text-align:center">View</td>
+        <td style="text-align:center">Fixed API Key</td>
+        <td style="text-align:center">IP Allow List</td>
+        <td style="text-align:center">Container</td>
+        </tr>
+        <tr>
+        <td style="text-align:center">Create</td>
+        <td style="text-align:center">Edit</td>
+        <td style="text-align:center">Generated Keys</td>
+        <td style="text-align:center" markdown="span">WAF</td>
+        <td style="text-align:center">Elasticsearch</td>
+        </tr>
+        <tr>
+        <td style="text-align:center">Delete</td>
+        <td style="text-align:center">Delete Account</td>
+        <td style="text-align:center">OAuth Tokens</td>
+        <td style="text-align:center">AWS Shield</td>
+        <td style="text-align:center">Archive</td>
+        </tr>
+        <tr>
+        <td style="text-align:center">Edit</td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center"></td>
+        </tr>
+    {{- end -}}
+    {{- if eq $phase 2 -}}
+        <tr>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        </tr>
+        <tr>
+        <td style="text-align:center">List</td>
+        <td style="text-align:center">View</td>
+        <td style="text-align:center">Fixed API Key</td>
+        <td style="text-align:center;border-bottom:5px solid red">IP Allow List</td>
+        <td style="text-align:center;border-bottom:5px solid red">Container</td>
+        </tr>
+        <tr>
+        <td style="text-align:center;border-bottom:5px solid red">Create</td>
+        <td style="text-align:center;border-bottom:5px solid red">Edit</td>
+        <td style="text-align:center;border-right:5px solid red">Generated Keys</td>
+        <td style="text-align:center">WAF</td>
+        <td style="text-align:center">Elasticsearch</td>
+        </tr>
+        <tr>
+        <td style="text-align:center">Delete</td>
+        <td style="text-align:center">Delete Account</td>
+        <td style="text-align:center;border-left:5px solid red;border-bottom:5px solid red;border-right:5px solid red">OAuth Tokens</td>
+        <td style="text-align:center">AWS Shield</td>
+        <td style="text-align:center">Archive</td>
+        </tr>
+        <tr>
+        <td style="text-align:center">Edit</td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center"></td>
+        </tr>
+    {{- end -}}
+    {{- if eq $phase 3 -}}
+        <tr>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        <td style="text-align:center">None</td>
+        </tr>
+        <tr>
+        <td style="text-align:center">List</td>
+        <td style="text-align:center">View</td>
+        <td style="text-align:center">Fixed API Key</td>
+        <td style="text-align:center;border-bottom:5px solid red">IP Allow List</td>
+        <td style="text-align:center;border-bottom:5px solid blue">Container</td>
+        </tr>
+        <tr>
+        <td style="text-align:center;border-bottom:5px solid red">Create</td>
+        <td style="text-align:center;border-bottom:5px solid red">Edit</td>
+        <td style="text-align:center;border-right:5px solid red">Generated Keys</td>
+        <td style="text-align:center;border-bottom:5px solid blue;border-right:5px solid blue">WAF</td>
+        <td style="text-align:center">Elasticsearch</td>
+        </tr>
+        <tr>
+        <td style="text-align:center;border-bottom:5px solid blue">Delete</td>
+        <td style="text-align:center;border-bottom:5px solid blue">Delete Account</td>
+        <td style="text-align:center;border-left:5px solid red;border-bottom:5px solid blue;border-right:5px solid blue">OAuth Tokens</td>
+        <td style="text-align:center">AWS Shield</td>
+        <td style="text-align:center">Archive</td>
+        </tr>
+        <tr>
+        <td style="text-align:center">Edit</td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center"></td>
+        <td style="text-align:center"></td>
+        </tr>
+    {{- end -}}
+</tbody>
+</table>
+

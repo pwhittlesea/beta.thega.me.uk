@@ -1,0 +1,54 @@
+- term: D&D
+  definition: Dungeons and Dragons
+- term: DM
+  definition: Dungeon Master - the person who runs the game
+- term: B2C
+  definition: Business-to-Consumer - a business that sells products or services to consumers
+- term: WAF
+  definition: Web Application Firewall - a security system that monitors and controls incoming and outgoing network
+- term: LoTR
+  definition: Lord of the Rings
+- term: FOMO
+  definition: Fear of Missing Out - a feeling of anxiety that an exciting event may currently be happening elsewhere
+- term: CGI
+  definition: Computer-Generated Imagery - the application of computer graphics to create images
+- term: CVE
+  definition: Common Vulnerabilities and Exposures - a list of publicly known cybersecurity vulnerabilities
+- term: ETL
+  definition: Extract, Transform, Load - a process used to collect data from various sources, transform it into a consistent format, and load it into a data warehouse
+- term: IDE
+  definition: Integrated Development Environment - a software application used for coding
+- term: KISS
+  definition: Keep It Simple, Stupid
+- term: PR
+  definition: Pull Request - a proposed change to a codebase
+- term: MR
+  definition: Merge Request - a proposed change to a codebase
+- term: CD
+  definition: Compact Disc
+- term: EPSG
+  definition: European Petroleum Survey Group (used in spatial reference systems like EPSG:4326)
+- term: GML
+  definition: Geography Markup Language
+- term: OSMM
+  definition: Ordnance Survey MasterMap
+- term: SI
+  definition: International System of Units
+- term: SRS
+  definition: Spatial Reference System
+- term: UK
+  definition: United Kingdom
+- term: UoM
+  definition: Unit of Measure
+- term: XML
+  definition: Extensible Markup Language
+- term: API
+  definition: Application Programming Interface
+- term: AWS
+  definition: Amazon Web Services
+- term: CORE
+  definition: Create Once, Read Everywhere
+- term: DML
+  definition: Data Modification Language
+- term: OTF
+  definition: Open Table Format

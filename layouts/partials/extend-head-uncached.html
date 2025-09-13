@@ -1,0 +1,5 @@
+{{ if .HasShortcode "admonition" }}
+    {{ $sass_admonition := resources.Get "sass/admonition.scss" }}
+    {{ $style_admonition := $sass_admonition | css.Sass | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style_admonition.Permalink }}" integrity="{{ $style_admonition.Data.Integrity }}">
+{{ end }}
