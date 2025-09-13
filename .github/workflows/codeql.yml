@@ -27,7 +27,6 @@ jobs:
         - language: python
           build-mode: none
         - language: go
-          build-mode: none
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
