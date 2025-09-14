@@ -27,7 +27,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          submodules: recursive
+          # Fetch all history to allow the last-update plugin to work correctly
           fetch-depth: 0
       - name: Setup Pages
         id: pages
