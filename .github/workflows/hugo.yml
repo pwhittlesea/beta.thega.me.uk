@@ -37,6 +37,14 @@ jobs:
         with:
           hugo-version: '0.150.0'
           extended: true
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install node
+        run: npm install
+      - name: Generate Tailwind CSS
+        run: npx @tailwindcss/cli -i tailwind.css -o ./assets/css/custom.css -m
       - name: Build the site
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact

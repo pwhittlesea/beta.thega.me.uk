@@ -1,35 +1,47 @@
 {{- if eq .Type "alert" -}}
-
-    {{- $type := .AlertType | default "note" -}}
-    {{- $iconMap := dict "note" "pencil" -}}
-    {{- $iconMap  = dict "info" "circle-info" | merge $iconMap -}}
-    {{- $iconMap  = dict "tip" "lightbulb" | merge $iconMap -}}
-    {{- $iconMap  = dict "warning" "triangle-exclamation" | merge $iconMap -}}
-    {{- $iconMap  = dict "danger" "triangle-exclamation" | merge $iconMap -}}
-
-    {{- $titleMap := dict "note" "Note" -}}
-    {{- $titleMap  = dict "info" "Info" | merge $titleMap -}}
-    {{- $titleMap  = dict "tip" "Tip" | merge $titleMap -}}
-    {{- $titleMap  = dict "warning" "Warning" | merge $titleMap -}}
-    {{- $titleMap  = dict "danger" "Danger" | merge $titleMap -}}
-
-    {{- $icon := index $iconMap $type | default (index $iconMap "note") -}}
-    {{- $title := .AlertTitle | default (index $titleMap $type) -}}
-
-    <div class="rounded-md admonition admonition-{{ $type }}">
-        <div class="py-1 px-1 flex admonition-title">
-            <span class="px-2 flex items-center">{{ partial "icon.html" $icon }}</span>
-            {{ $title }}
+    {{- $iconColorMap := dict 
+        "note" "tw:text-sky-500"
+        "info" "tw:text-blue-500"
+        "tip" "tw:text-green-500"
+        "warning" "tw:text-amber-500"
+        "danger" "tw:text-red-500" -}}
+    {{- $bgColorMap := dict
+        "note" "tw:bg-sky-700/10 tw:border-l-sky-700"
+        "info" "tw:bg-blue-700/10 tw:border-l-blue-700"
+        "tip" "tw:bg-green-700/10 tw:border-l-green-700"
+        "warning" "tw:bg-amber-700/10 tw:border-l-amber-700"
+        "danger" "tw:bg-red-700/10 tw:border-l-red-700" -}}
+    {{- $headerColorMap := dict
+        "note" "tw:bg-sky-700/55"
+        "info" "tw:bg-blue-700/55"
+        "tip" "tw:bg-green-700/55"
+        "warning" "tw:bg-amber-700/55"
+        "danger" "tw:bg-red-700/55" -}}
+    {{- $iconMap := dict
+        "note" "pencil"
+        "info" "circle-info"
+        "tip" "lightbulb"
+        "warning" "triangle-exclamation"
+        "danger" "triangle-exclamation" -}}
+    {{- $titleMap := dict
+        "note" "Note"
+        "info" "Info"
+        "tip" "Tip"
+        "warning" "Warning"
+        "danger" "Danger" -}}
+    <div class="{{ index $bgColorMap .AlertType }} relative rounded-lg tw:my-4 tw:border-l-4 tw:border-l-solid shadow-lg">
+        <div class="{{ index $headerColorMap .AlertType }} flex tw:rounded-tr-lg tw:rounded-tl-sm tw:p-1 tw:font-bold items-center">
+            <span class="{{ index $iconColorMap .AlertType }} tw:px-2">
+                {{ partial "icon.html" (index $iconMap .AlertType) }}
+            </span>
+            {{ .AlertTitle | default (index $titleMap .AlertType) }}
         </div>
-        <div class="py-2 admonition-content prose dark:text-neutral-100">
+        <div class="tw:p-2 prose dark:text-neutral-100">
             {{ .Text }}
         </div>
     </div>
-
 {{- else -}}
-
     <blockquote>
         {{ .Text }}
     </blockquote>
-
 {{- end -}}
