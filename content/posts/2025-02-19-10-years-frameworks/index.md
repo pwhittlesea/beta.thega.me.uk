@@ -13,9 +13,8 @@ After a decade of designing, building, and maintaining an application framework 
 
 ## Background
 
-{{< admonition type="info" >}}
-  If you aren't interested in the back-story, and want to jump to what I have leaned, you can skip [here](#what-have-i-learned).
-{{< /admonition >}}
+> [!INFO]
+> If you aren't interested in the back-story, and want to jump to what I have leaned, you can skip [here](#what-have-i-learned).
 
 Inspired by [this post by Chris Kiehl](https://chriskiehl.com/article/thoughts-after-10-years) &mdash; which you should go read &mdash; I began thinking about what lessons I had learned over the last ten years of my career.
 
@@ -84,11 +83,10 @@ The less time you spend duplicating Kafka test harnesses, the more time you can 
 
 ## What did I build?
 
-{{< admonition type="note" >}}
-  Although this section is called 'What did I build?', I cannot claim that I did build it all myself.
-  I have worked with some very talented engineers over the years who all helped add and improve this framework.
-  As always, it's a team effort.
-{{< /admonition >}}
+> [!NOTE]
+> Although this section is called 'What did I build?', I cannot claim that I did build it all myself.
+> I have worked with some very talented engineers over the years who all helped add and improve this framework.
+> As always, it's a team effort.
 
 Back in 2016 we were building lots of microservices, creating libraries to handle some common functions like metrics.
 We had somewhere in the region of thirty at the time, but I was predicting that we would hit one hundred within a couple of years.

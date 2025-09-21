@@ -6,9 +6,8 @@ series: ["12 of Short Stories - 2024"]
 series_order: 3
 ---
 
-{{< admonition type="warning" >}}
-  I took the liberty of jumping from 'Point' to 'Peak' for this story.
-{{< /admonition >}}
+> [!WARNING]
+> I took the liberty of jumping from 'Point' to 'Peak' for this story.
 
 "Let's keep up the pace" I heard Erwin shout above the wind.
 

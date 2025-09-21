@@ -12,21 +12,19 @@ Here is one of the techniques I use.
 
 <!--more-->
 
-{{< admonition type="info" title="Update 2024/07/25" >}}
-  So this process should be called 'User Story Mapping' and is featured in its own [O'Reilly book](https://www.oreilly.com/library/view/user-story-mapping/9781663728661/) by Jeff Patton and Roy McCrerey.
+> [!INFO] Update 2024/07/25
+> So this process should be called 'User Story Mapping' and is featured in its own [O'Reilly book](https://www.oreilly.com/library/view/user-story-mapping/9781663728661/) by Jeff Patton and Roy McCrerey.
+>
+> I struggled to find anything about it because I did not know the correct name.
+> But now I do, I have found lots of _far_ better blogs out there on this process (e.g. [1](https://www.easyagile.com/blog/the-ultimate-guide-to-user-story-maps/), [2](https://plan.io/blog/user-story-mapping/) and [3](https://www.nngroup.com/articles/user-story-mapping/)).
+>
+> There is also a [video](https://www.youtube.com/watch?v=AorAgSrHjKM) featuring one of the authors of the book.
+>
+> In fact, this blog probably now only serves as a writing exercise :smile:.
+> I plan on buying and reading the book so I can correct all the terminology on this page.
 
-  I struggled to find anything about it because I did not know the correct name.
-  But now I do, I have found lots of _far_ better blogs out there on this process (e.g. [1](https://www.easyagile.com/blog/the-ultimate-guide-to-user-story-maps/), [2](https://plan.io/blog/user-story-mapping/) and [3](https://www.nngroup.com/articles/user-story-mapping/)).
-
-  There is also a [video](https://www.youtube.com/watch?v=AorAgSrHjKM) featuring one of the authors of the book.
-
-  In fact, this blog probably now only serves as a writing exercise :smile:.
-  I plan on buying and reading the book so I can correct all the terminology on this page.
-{{< /admonition >}}
-
-{{< admonition type="info" title="Original 2024/07/21" >}}
-  :blue_heart: I do not know the origin of this process, but if you do, let me know so I can attribute it correctly.
-{{< /admonition >}}
+> [!INFO] Original 2024/07/21
+> :blue_heart: I do not know the origin of this process, but if you do, let me know so I can attribute it correctly.
 
 ## Why do we need decomposition?
 
@@ -68,9 +66,8 @@ Here we have a couple of randomly selected aspects of the APIs (for very large p
 
 Teams will not manage to put everything here first time, as they work through this process they will discover more.
 
-{{< admonition type="warning" >}}
-  This is a good time to remember all of those other business systems your application needs to integrate with (like Salesforce)
-{{< /admonition >}}
+> [!WARNING]
+> This is a good time to remember all of those other business systems your application needs to integrate with (like Salesforce)
 
 ### Step 2 - Slicing
 

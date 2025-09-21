@@ -39,9 +39,8 @@ They remembered being shaken.
 Or were they currently being shaken?
 They filed the input away, comparing it against all the others that slowly flowed into their head; trying to place them in some sort of order.
 
-{{< admonition type="warning" >}}
-  This is my first attempt at writing fiction.
-  There may be more to come, but there may not.
-
-  We shall see.
-{{< /admonition >}}
+> [!WARNING]
+> This is my first attempt at writing fiction.
+> There may be more to come, but there may not.
+>
+> We shall see.

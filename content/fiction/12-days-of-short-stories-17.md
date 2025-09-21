@@ -89,6 +89,5 @@ I just sort of sat there until I heard the helicopters in the sky.
 
 **Account Ends**.
 
-{{< admonition type="info" >}}
-  This one is in the style of [World War Z](https://app.thestorygraph.com/books/5acbfc41-517f-4672-bf71-66a3c1fcd2910), which is a great book, but an even better Audiobook!
-{{< /admonition >}}
+> [!INFO]
+> This one is in the style of [World War Z](https://app.thestorygraph.com/books/5acbfc41-517f-4672-bf71-66a3c1fcd2910), which is a great book, but an even better Audiobook!

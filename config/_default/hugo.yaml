@@ -34,6 +34,9 @@ markup:
           enable: true
         superscript:
           enable: true
+    parser:
+      attribute:
+        block: true
 
 # Disable RSS feeds on the section, taxonomy and term pages
 outputs:

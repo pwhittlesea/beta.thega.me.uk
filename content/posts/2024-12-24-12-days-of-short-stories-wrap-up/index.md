@@ -134,6 +134,6 @@ I might try this again in 2025.
 I still want to try my hand at writing a longer story.
 Let's see if this exercise helped.
 
-> ![NOTE]
+> [!NOTE]
 > If you have read this far, and you read the stories, thank you for joining me, and I hope you don't want your time back.
 > _No refunds!_

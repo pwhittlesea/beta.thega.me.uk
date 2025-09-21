@@ -37,6 +37,5 @@ Silence passed between us for a moment, and I could hear the crows in the trees 
 Daniel looked behind my left shoulder to look at his thug behind me.\
 "Throw her in".
 
-{{< admonition type="warning" >}}
-  This one is a day late, so I didn't get to finish it, apologies!
-{{< /admonition >}}
+> [!WARNING]
+> This one is a day late, so I didn't get to finish it, apologies!

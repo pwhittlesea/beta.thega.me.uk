@@ -31,9 +31,8 @@ maps:
         lon: -1.1704492438361127
 ---
 
-{{< admonition type="tip" >}}
-  This post is inspired by Josh Erb's blog: [How I Added Maps to my Travel Posts](https://cyberb.space/notes/2024/how-i-added-maps-to-my-travel-posts/).
-{{< /admonition >}}
+> [!TIP]
+> This post is inspired by Josh Erb's blog: [How I Added Maps to my Travel Posts](https://cyberb.space/notes/2024/how-i-added-maps-to-my-travel-posts/).
 
 {{< map name="an_example_map" >}}
 
@@ -148,9 +147,8 @@ Generate Maps.....................Failed
 - files were modified by this hook
 ```
 
-{{< admonition type="danger" >}}
-  Currently, this hook will not pick up new maps which were unstaged (always run `git status` kids)!
-{{< /admonition >}}
+> [!DANGER]
+> Currently, this hook will not pick up new maps which were unstaged (always run `git status` kids)!
 
 ## Image Generation
 
@@ -168,10 +166,9 @@ there are probably alternatives out there, but it's a good library that allowed 
 
 [^3]: I reached for Python as I am more familiar with the tool chain; which meant I had to find an alternative to the JavaScript based D3.
 
-{{< admonition type="note" >}}
-  `py-staticmaps` is not currently being pushed to pypi, so I needed to patch for an API difference in PIL.
-  Thanks to the awesome community I found a quick patch [here](https://github.com/flopp/py-staticmaps/issues/39#issuecomment-2264856739).
-{{< /admonition >}}
+> [!NOTE]
+> `py-staticmaps` is not currently being pushed to pypi, so I needed to patch for an API difference in PIL.
+> Thanks to the awesome community I found a quick patch [here](https://github.com/flopp/py-staticmaps/issues/39#issuecomment-2264856739).
 
 ### Reading Front Matter
 

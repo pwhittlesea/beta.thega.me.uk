@@ -44,11 +44,10 @@ maps:
         lon: 168.17344976743658
 ---
 
-{{< admonition type="note" >}}
-  **Happy New Year!**\
-  It's been a while since my last post, and it's been over six months since I got back from New Zealand.
-  I really need to hurry up.
-{{< /admonition >}}
+> [!NOTE] Happy New Year!
+>
+> It's been a while since my last post, and it's been over six months since I got back from New Zealand.
+> I really need to hurry up.
 
 At the end of [part 5]({{< ref "2024-10-21-new-zealand-5" >}}) we had just finished 4 nights in Wellington.
 It was now time for us to depart to New Zealand's southern island.
