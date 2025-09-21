@@ -10,40 +10,32 @@ summary: "Details of my career and skills"
 
 {{< timeline >}}
 
-{{< timelineItem icon="lightbulb" header="Chief Architect" badge="2024 - Present" subheader="Cirium" >}}
-As Ciriums Chief Architect I set the technical strategy for the business; designing organisation wide solutions that support Ciriums future growth.
-<br/>
-Areas focused on:
-<ul>
-  <li>Ensuring we build out a technical platform which allows us to realise value rapidly, but securely</li>
-  <li>Interfacing with C-Level leadership to ensure that technical strategy aligns with the goals of the business</li>
-  <li>Working with teams to ensure shared infrastructure/solutions meet their needs</li>
-  <li>Effective communication of strategy with stakeholders alongside clear documentation of designs</li>
-  <li>Engaging with suppliers to explore if new technologies and tools can support the business</li>
-  <li>Determining technical feasibility of upcoming projects and products</li>
-</ul>
+{{< timelineItem icon="lightbulb" header="Chief Architect" badge="2024 - Present" subheader="Cirium" md=true >}}
+  As Ciriums Chief Architect I set the technical strategy for the business; designing organization wide solutions that support Ciriums future growth.
+
+  Areas focused on:
+  - Ensuring we build out a technical platform which allows us to realize value rapidly, but securely
+  - Interfacing with C-Level leadership to ensure that technical strategy aligns with the goals of the business
+  - Working with teams to ensure shared infrastructure/solutions meet their needs
+  - Effective communication of strategy with stakeholders alongside clear documentation of designs
+  - Engaging with suppliers to explore if new technologies and tools can support the business
+  - Determining technical feasibility of upcoming projects and products
 {{< /timelineItem >}}
 
-{{< timelineItem icon="lightbulb" header="Architect" badge="2022 - 2024" subheader="Cirium" >}}
-Architect accountable for the design of machine-to-machine interfaces (e.g. HTTP APIs, AMQP).
-<br/>
-Areas focused on:
-<ul>
-  <li>
-    Engaging with stakeholders within the business and the wider organisation to gather requirements
-    <ul>
-        <li>These stakeholders include Sales, Product, Project, Data, SREs, and Security
-        <li>Analyse requirements from the above to design solutions that meet the business needs
-    </ul>
-  </li>
-  <li>Working with teams to understand where shared infrastructure/solutions may benefit the business</li>
-  <li>Coordinating multiple teams to allow effective delivery</li>
-  <li>Establishing coding practices and drive technical direction amongst development teams</li>
-  <li>Leading teams in the decomposition of issues to aid problem-resolution</li>
-  <li>Effective documentation of design</li>
-  <li>Evaluating new technologies and tools for upcoming projects and train teams in their usage</li>
-  <li>Determining technical feasibility of upcoming projects</li>
-</ul>
+{{< timelineItem icon="lightbulb" header="Architect" badge="2022 - 2024" subheader="Cirium" md=true >}}
+  Architect accountable for the design of machine-to-machine interfaces (e.g. HTTP APIs, AMQP).
+
+  Areas focused on:
+  - Engaging with stakeholders within the business and the wider organization to gather requirements
+    - These stakeholders include Sales, Product, Project, Data, SREs, and Security
+    - Analyse requirements from the above to design solutions that meet the business needs
+  - Working with teams to understand where shared infrastructure/solutions may benefit the business
+  - Coordinating multiple teams to allow effective delivery
+  - Establishing coding practices and drive technical direction amongst development teams
+  - Leading teams in the decomposition of issues to aid problem-resolution
+  - Effective documentation of design
+  - Evaluating new technologies and tools for upcoming projects and train teams in their usage
+  - Determining technical feasibility of upcoming projects
 {{< /timelineItem >}}
 
 {{< timelineItem icon="code" header="Principal Software Engineer" badge="2020 - 2022" subheader="Cirium" >}}
