@@ -54,7 +54,21 @@ This will almost certainly require a Front end with Javascript and CSS, but will
 
 Write these aspects down as columns of a table, lets focus on just the back end APIs;
 
-{{< composition_table 0 >}}
+<!-- markdownlint-disable MD033 -->
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Post APIs</th>
+<th style="text-align:center">User Settings APIs</th>
+<th style="text-align:center">Authentication</th>
+<th style="text-align:center">Threat Protection</th>
+<th style="text-align:center">Logging</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<!-- markdownlint-enable MD033 -->
 
 Here we have a couple of randomly selected aspects of the APIs (for very large projects I've seen ~100 columns):
 
@@ -73,7 +87,56 @@ Teams will not manage to put everything here first time, as they work through th
 
 Take each column and write down slices of that aspect, each increasing in value and complexity:
 
-{{< composition_table 1 >}}
+<!-- markdownlint-disable MD033 -->
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Post APIs</th>
+<th style="text-align:center">User Settings APIs</th>
+<th style="text-align:center">Authentication</th>
+<th style="text-align:center">Threat Protection</th>
+<th style="text-align:center">Logging</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+</tr>
+<tr>
+<td style="text-align:center">List</td>
+<td style="text-align:center">View</td>
+<td style="text-align:center">Fixed API Key</td>
+<td style="text-align:center">IP Allow List</td>
+<td style="text-align:center">Container</td>
+</tr>
+<tr>
+<td style="text-align:center">Create</td>
+<td style="text-align:center">Edit</td>
+<td style="text-align:center">Generated Keys</td>
+<td style="text-align:center" markdown="span">WAF</td>
+<td style="text-align:center">Elasticsearch</td>
+</tr>
+<tr>
+<td style="text-align:center">Delete</td>
+<td style="text-align:center">Delete Account</td>
+<td style="text-align:center">OAuth Tokens</td>
+<td style="text-align:center">AWS Shield</td>
+<td style="text-align:center">Archive</td>
+</tr>
+<tr>
+<td style="text-align:center">Edit</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<!-- markdownlint-enable MD033 -->
 
 If we take column 1 'Post APIs' as an example.
 The team could deliver no APIs related to posting.
@@ -101,7 +164,56 @@ In my opinion this is the most powerful output of this process; a team being abl
 
 Obviously this is going to take lots of work with the Product Owner to decide what we do/don't need to do to get to this milestone.
 
-{{< composition_table 2 >}}
+<!-- markdownlint-disable MD033 -->
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Post APIs</th>
+<th style="text-align:center">User Settings APIs</th>
+<th style="text-align:center">Authentication</th>
+<th style="text-align:center">Threat Protection</th>
+<th style="text-align:center">Logging</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+</tr>
+<tr>
+<td style="text-align:center">List</td>
+<td style="text-align:center">View</td>
+<td style="text-align:center">Fixed API Key</td>
+<td style="text-align:center;border-bottom:5px solid red">IP Allow List</td>
+<td style="text-align:center;border-bottom:5px solid red">Container</td>
+</tr>
+<tr>
+<td style="text-align:center;border-bottom:5px solid red">Create</td>
+<td style="text-align:center;border-bottom:5px solid red">Edit</td>
+<td style="text-align:center;border-right:5px solid red">Generated Keys</td>
+<td style="text-align:center">WAF</td>
+<td style="text-align:center">Elasticsearch</td>
+</tr>
+<tr>
+<td style="text-align:center">Delete</td>
+<td style="text-align:center">Delete Account</td>
+<td style="text-align:center;border-left:5px solid red;border-bottom:5px solid red;border-right:5px solid red">OAuth Tokens</td>
+<td style="text-align:center">AWS Shield</td>
+<td style="text-align:center">Archive</td>
+</tr>
+<tr>
+<td style="text-align:center">Edit</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<!-- markdownlint-enable MD033 -->
 
 Here, the team can say that they need to support listing and creating posts, before they can say they are ready to go to market.
 Similarly they _need_ to have an API that allows editing user settings, but **not** an API that allows account deletion (for now, users can email us to get their account deleted).
@@ -122,7 +234,56 @@ If we want our users to really _love_ our product we are going to have to delive
 
 Time for another line.
 
-{{< composition_table 3 >}}
+<!-- markdownlint-disable MD033 -->
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Post APIs</th>
+<th style="text-align:center">User Settings APIs</th>
+<th style="text-align:center">Authentication</th>
+<th style="text-align:center">Threat Protection</th>
+<th style="text-align:center">Logging</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+<td style="text-align:center">None</td>
+</tr>
+<tr>
+<td style="text-align:center">List</td>
+<td style="text-align:center">View</td>
+<td style="text-align:center">Fixed API Key</td>
+<td style="text-align:center;border-bottom:5px solid red">IP Allow List</td>
+<td style="text-align:center;border-bottom:5px solid blue">Container</td>
+</tr>
+<tr>
+<td style="text-align:center;border-bottom:5px solid red">Create</td>
+<td style="text-align:center;border-bottom:5px solid red">Edit</td>
+<td style="text-align:center;border-right:5px solid red">Generated Keys</td>
+<td style="text-align:center;border-bottom:5px solid blue;border-right:5px solid blue">WAF</td>
+<td style="text-align:center">Elasticsearch</td>
+</tr>
+<tr>
+<td style="text-align:center;border-bottom:5px solid blue">Delete</td>
+<td style="text-align:center;border-bottom:5px solid blue">Delete Account</td>
+<td style="text-align:center;border-left:5px solid red;border-bottom:5px solid blue;border-right:5px solid blue">OAuth Tokens</td>
+<td style="text-align:center">AWS Shield</td>
+<td style="text-align:center">Archive</td>
+</tr>
+<tr>
+<td style="text-align:center">Edit</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<!-- markdownlint-enable MD033 -->
 
 We can now see a couple of things playing out:
 
@@ -147,11 +308,11 @@ That, and we are not wasting too much time on this process, we are only discussi
 
 1. Try and do this collaboratively.
    Every member of the team member should be present.
-2. Whiteboards are my go to for anything like this but this requires a co-located team who can come to the office.
+2. Whiteboards are my go to for anything like this, but this requires a co-located team who can come to the office.
    A shared space like a Confluence page/Word document will do.
 3. This is a living document.
    Change it as you see fit throughout the project.
-   Security team changed their systems so now you need to push logs into Azure Sentinel?
+   Security team changed their systems, so now you need to push logs into Azure Sentinel?
    Add a slice.
 4. There is no limit on how many lines you should draw.
    I've seen teams do one-per-card.

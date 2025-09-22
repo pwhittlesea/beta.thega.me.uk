@@ -112,7 +112,16 @@ This was accented by a giant 'No Drones' sign as we got off the coach.
 Even then, as we left the coach, multiple people immediately launched drones into the sky.
 It felt like one of those 'the sign should have been in multiple languages' moments, but I did have a good chuckle.
 
-{{< iframe "https://www.google.com/maps/embed?pb=!4v1737407392876!6m8!1m7!1sgbngmuK9XSTIqAy8bMA3Ug!2m2!1d-45.06182995282183!2d167.9949241338097!3f5.7412880641415285!4f-2.241075672227865!5f3.325193203789971" >}}
+<iframe
+    markdown="0"
+    src="https://www.google.com/maps/embed?pb=!4v1737407392876!6m8!1m7!1sgbngmuK9XSTIqAy8bMA3Ug!2m2!1d-45.06182995282183!2d167.9949241338097!3f5.7412880641415285!4f-2.241075672227865!5f3.325193203789971"
+    width="100%"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
 
 After about fifteen minutes at the flats, we hopped 5 km north, to an area called the 'Mirror Lakes'.
 

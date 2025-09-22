@@ -92,10 +92,10 @@ The tour was set to take us about nine and a half hours, including a break for l
 
 Nomad Safaris do two half day tours, with a full day tour which is both separated by lunch.
 The first tour heads North-West of Queenstown, up and along the Wakatipu Lake edge to the small hamlet of Glenorchy.
-This morning tour would visit all the **{{< colour "#ccbb44" "Yellow" >}}** points on the map above.
+This morning tour would visit all the <span class="underline tw:decoration-2 tw:decoration-[#ccbb44]!">Yellow</span> points on the map above.
 
 The second tour is more 'rugged' and would take us North-East of Queenstown to Gibbston Valley, Arrowtown and the Skippers Canyon Road.
-This afternoon tour would take us to all the **{{< colour "#66ccee" "Blue" >}}** points on the map above.
+This afternoon tour would take us to all the <span class="underline tw:decoration-2 tw:decoration-[#66ccee]!">Blue</span> points on the map above.
 
 As we stepped out of the hotel, a convoy of three Toyota 4WD Land Cruisers awaited us outside.
 Each had a LoTR license plate and enough space for a driver and six people (as long as those people are thin, which I am not).
@@ -209,7 +209,16 @@ Skippers Road is a single width road, with enough space for one car, next to a h
 
 The pictures I took didn't do this ledge justice, but I found one on Google Maps, uploaded by 'Will Heesterman':
 
-{{< iframe "https://www.google.com/maps/embed?pb=!4v1736702653477!6m8!1m7!1sCAoSLEFGMVFpcE5XM1BiUnZfTGR1eDl0c2ViclNhdnI4RkZJOVlMemUxRWNFVTlJ!2m2!1d-44.92436601161135!2d168.6916655594491!3f214.64!4f-11.510000000000005!5f0.4000000000000002" >}}
+<iframe
+    markdown="0"
+    src="https://www.google.com/maps/embed?pb=!4v1736702653477!6m8!1m7!1sCAoSLEFGMVFpcE5XM1BiUnZfTGR1eDl0c2ViclNhdnI4RkZJOVlMemUxRWNFVTlJ!2m2!1d-44.92436601161135!2d168.6916655594491!3f214.64!4f-11.510000000000005!5f0.4000000000000002"
+    width="100%"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
 
 Although dangerous, it was exhilarating as we traversed the side of the hill like mountain goats, travelling for about fifteen minutes into the canyon and back.
 

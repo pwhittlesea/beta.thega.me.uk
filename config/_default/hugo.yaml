@@ -37,6 +37,8 @@ markup:
     parser:
       attribute:
         block: true
+    renderer:
+      unsafe: true
 
 # Disable RSS feeds on the section, taxonomy and term pages
 outputs:
